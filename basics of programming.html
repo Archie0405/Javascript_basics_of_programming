@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+
+let fname = prompt("Firstname: ") //string
+let lname = prompt("Lastname: ")
+let add = prompt("Address")
+let age = prompt("Age")
+
+let newage = parseInt(age);
+
+let str ='';
+
+if (newage >= 0 && age <= 1){
+    str = "Infant" ;
+} else if (newage >= 2  && age <= 4){
+    str = "Toddler" ;
+
+} else if (newage >= 5  && age <= 12){
+    str = "Child" ;
+
+} else if (newage >= 13  && age <= 19){
+    str = "Teen" ;
+
+} else if (newage >= 20  && age <= 39){
+    str = "Adult" ;
+
+} else if (newage >= 40  && age <= 59){
+    str = "Middle Age Adult" ;
+
+} else if (newage <= 60){
+    str = "Senior Adult" ;
+}
+
+
+alert(str);
+
+    </script>
+
+
+   
+</body>
+
+</html>
